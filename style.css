@@ -1,10 +1,10 @@
 .parent{
   display: flex;
   flex-direction: row;
-  border: 3px solid red;
+  border: 3px solid #FF241D;
 }
 .childone{
-  border: 3px solid blue;
+  border: 3px solid #1D98FF;
   padding: 3%;
   margin: 2%;
   width: 30%;
@@ -14,7 +14,7 @@
 }
 img{
   width: 40%;
-  border: 5px solid pink;
+  border: 5px solid #FF1D84;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -22,7 +22,7 @@ img{
   box-shadow: 5px 7px 15px #000;
 }
 .childtwo{
-  border: 3px solid blue;
+  border: 3px solid #1D98FF;
   padding: 3%;
   margin: 2%;
   width: 70%;
@@ -32,7 +32,7 @@ img{
   .parent{
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
+    border: 3px solid #FF241D;
   }
   a{
     word-wrap: break-word;
@@ -47,18 +47,18 @@ img{
     word-wrap: break-word;
   }
   .childone{
-    border: 3px solid blue;
+    border: 3px solid #1D98FF;
     padding: 3%;
     margin: 2%;
     width: 90%;
     border-radius: 10%;
     text-align: center;
     font-size: 24px;
-    background-color: skyblue;
+    background-color: #B3FFF9;
   }
   img{
     width: 40%;
-    border: 5px solid pink;
+    border: 5px solid #FF1D84;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -66,10 +66,10 @@ img{
     box-shadow: 5px 7px 15px #000;
   }
   .childtwo{
-    border: 3px solid blue;
+    border: 3px solid #1D98FF;
     padding: 3%;
     margin: 2%;
-    background-color: skyblue;
+    background-color: #B3FFF9;
     width: 90%;
     border-radius: 10%;
   }
@@ -78,7 +78,7 @@ img{
   .parent{
     display: flex;
     flex-direction: row;
-    border: 3px solid red;
+    border: 3px solid #FF241D;
   }
   a{
     word-wrap: break-word;
@@ -90,7 +90,7 @@ img{
       word-wrap: break-word;
   }
   .childone{
-    border: 3px solid blue;
+    border: 3px solid #1D98FF;
     padding: 3%;
     margin: 2%;
     width: 90%;
@@ -99,11 +99,11 @@ img{
     font-family: cursive;
     font-style: italic;
     font-size: 24px;
-    background-color: orange;
+    background-color: #FFF580;
   }
   img{
     width: 40%;
-    border: 5px solid pink;
+    border: 5px solid #FF1D84;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -111,10 +111,57 @@ img{
     box-shadow: 5px 7px 15px #000;
   }
   .childtwo{
-    border: 3px solid blue;
+    border: 3px solid #1D98FF;
     padding: 3%;
     margin: 2%;
-    background-color: orange;
+    background-color: #FFF580;
+    width: 90%;
+    border-radius: 10%;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px ){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #FF241D;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  h3{
+      word-wrap: break-word;
+  }
+  h2{
+      word-wrap: break-word;
+  }
+  .childone{
+    border: 3px solid #1D98FF;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 10%;
+    text-align: left;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 24px;
+    background-color: #FF8E1D;
+  }
+  img{
+    width: 40%;
+    border: 5px solid #FF1D84;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 15px #000;
+  }
+  .childtwo{
+    border: 3px solid #1D98FF;
+    padding: 3%;
+    margin: 2%;
+    background-color: #FF8E1D;
     width: 90%;
     border-radius: 10%;
     font-style: italic;
