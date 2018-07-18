@@ -28,3 +28,96 @@ img{
   width: 70%;
   border-radius: 10%;
 }
+@media only screen and (max-width: 480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  h3{
+      word-wrap: break-word;
+  }
+  h2{
+      word-wrap: break-word;
+  }
+  p{
+    word-wrap: break-word;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 24px;
+    background-color: skyblue;
+  }
+  img{
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 15px #000;
+  }
+  .childtwo{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    background-color: skyblue;
+    width: 90%;
+    border-radius: 10%;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px ){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  h3{
+      word-wrap: break-word;
+  }
+  h2{
+      word-wrap: break-word;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 10%;
+    text-align: left;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 24px;
+    background-color: orange;
+  }
+  img{
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 15px #000;
+  }
+  .childtwo{
+    border: 3px solid blue;
+    padding: 3%;
+    margin: 2%;
+    background-color: orange;
+    width: 90%;
+    border-radius: 10%;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+}
