@@ -7,5 +7,42 @@
 },
 "Careerobjective":{
   "info":"To obtain a significant and challenging position as a financial analyst advisor wherein I will learn and excel in finance operation processes. A job that provides me a scope for growth in the finance vertical"
+},
+"education":[{
+  "degree":"B.Tech",
+  "institute":"SRKREC",
+  "data":["2017-2020","83%"]
+},
+{
+  "degree":"DIPLOMA",
+  "institute":"SMT.B.Seetha Polytechnic",
+  "data":["2014-2017","83.41%"]
+},
+{
+  "degree":"SSC",
+  "institute":"Z.P.High School",
+  "data":["2014","7.7"]
 }
+],
+"skills":[{
+  "title":"Languages",
+  "data":["C","C++","JAVA","Python","Data Structures"]
+  },
+{
+  "title":"DataBases",
+  "data":["SQL","MySQL","Oracle"]
+  },
+{
+  "title":"Operating Systems",
+  "data":["Linux","Windows","MAC","ubuntu"]
+  }],
+  "achievements":[{
+    "data":"Received 9 certification in programming."
+    },
+  {
+    "data":"Met deadlines consistently."
+    },
+  {
+    "data":"Gaining qualifications other than my education."
+    }]
 }
