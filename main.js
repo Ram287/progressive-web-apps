@@ -52,18 +52,18 @@ function details(det){
   mail.href = "mailto:hellosmiley.143@gmail.com"
   mail.textContent = det.email;
   child.appendChild(mail);
-  var address = document.createElement("h3");
+  var address = document.createElement("h4");
   address.textContent = "Address";
   child.appendChild(address);
   var address = document.createElement("hr");
   child.appendChild(address);
-  var address = document.createElement("h2");
+  var address = document.createElement("h4");
   address.textContent = det.address;
   child.appendChild(address);
 }
 var child2 = document.querySelector(".childtwo");
 function career(careerinfo){
-  var address = document.createElement("h3");
+  var address = document.createElement("h2");
   address.textContent = "Career Objective";
   child2.appendChild(address);
   var address = document.createElement("hr");

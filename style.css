@@ -11,6 +11,8 @@
   border-radius: 10%;
   text-align: center;
   font-size: 24px;
+  font-family: cursive;
+  background-color: #87FF01;
 }
 img{
   width: 40%;
@@ -27,6 +29,8 @@ img{
   margin: 2%;
   width: 70%;
   border-radius: 10%;
+  font-family: sans-serif;
+  background-color: #00B073;
 }
 table{
   width:90%
@@ -47,6 +51,9 @@ td{
       word-wrap: break-word;
   }
   h2{
+      word-wrap: break-word;
+  }
+  h4{
       word-wrap: break-word;
   }
   p{
@@ -85,6 +92,9 @@ td{
   td{
     padding:2%
   }
+  h4{
+      word-wrap: break-word;
+  }
 }
 @media only screen and (min-width:481px) and (max-width:768px ){
   .parent{
@@ -100,6 +110,12 @@ td{
   }
   h2{
       word-wrap: break-word;
+  }
+  h4{
+      word-wrap: break-word;
+  }
+  p{
+    word-wrap: break-word;
   }
   .childone{
     border: 3px solid #1D98FF;
@@ -153,6 +169,12 @@ td{
   }
   h2{
       word-wrap: break-word;
+  }
+  h4{
+      word-wrap: break-word;
+  }
+  p{
+    word-wrap: break-word;
   }
   .childone{
     border: 3px solid #1D98FF;
